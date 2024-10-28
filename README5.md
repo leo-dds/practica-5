@@ -38,7 +38,9 @@ services:
     restart: unless-stopped                     # Reiniciar a menos que se detenga
 
 _3. Crear archivos de configuración de BIND9_
+
 sri@sri-VirtualBox:~/bind9-docker$ cd named/etc/bind 
+
 sri@sri-VirtualBox:~/bind9-docker/named/etc/bind$ nano named.cong.options
 
 Dentro del nano escribimos lo siguiente:
