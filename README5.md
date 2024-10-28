@@ -1,14 +1,22 @@
 # [practica-5](https://github.com/leo-dds/practica-5.git)
 __1. Crear la estructura del proyecto__
 
-sri@sri-VirtualBox:~$ mkdir bind9-docker
-sri@sri-VirtualBox:~$ cd bind9-docker/
-sri@sri-VirtualBox:~/bind9-docker$ mkdir -p named/etc/bind
+sri@sri-VirtualBox:$ mkdir bind9-docker
+
+sri@sri-VirtualBox:$ cd bind9-docker/
+
+sri@sri-VirtualBox:/bind9-docker$ mkdir -p named/etc/bind
+
 sri@sri-VirtualBox:~/bind9-docker$ mkdir -p named/var/cache/bind
+
 sri@sri-VirtualBox:~/bind9-docker$ mkdir -p named/var/lib/bind
+
 sri@sri-VirtualBox:~/bind9-docker$ 
+
 sri@sri-VirtualBox:~/bind9-docker$ mkdir -p named/var/log
+
 sri@sri-VirtualBox:~/bind9-docker$ mkdir -p named/var/run
+
 sri@sri-VirtualBox:~/bind9-docker$ touch docker-compose.yml
 
 _2. Crear el archivo docker-compose.yml_
