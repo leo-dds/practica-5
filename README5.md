@@ -1,5 +1,5 @@
 # [practica-5](https://github.com/leo-dds/practica-5.git)
-_1. Crear la estructura del proyecto_
+__1. Crear la estructura del proyecto__
 sri@sri-VirtualBox:~$ mkdir bind9-docker
 sri@sri-VirtualBox:~$ cd bind9-docker/
 sri@sri-VirtualBox:~/bind9-docker$ mkdir -p named/etc/bind
