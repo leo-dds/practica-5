@@ -60,5 +60,9 @@ options {
 _4.Ejecutar el Contenedor._
 
 **docker-compose up -d**
+Creating network "bind9-docker_default" with the default driver
+Creating bind9 ... done
+
+**docker-compose up -d**
 Starting bind9 ... done
 
